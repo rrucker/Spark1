@@ -36,4 +36,4 @@ def cosineSimilarity(v:Vector[D], w: Vector[D]):D =
 cosineSimilarity(vec1, vec2)
 // note that R2 , the statistical measure of closeness is the
 // cosineSimilarity square
-def angle(v:D, w:D):D = cosineSimilarity(v,w)
+def angle(v:V, w:V):D = cosineSimilarity(v,w)// now convert to degrees
